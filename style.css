@@ -1,0 +1,180 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.logo {
+ color: #F9FAF8;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+a {
+   text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+.titleup,
+.text {
+  font-size: 14px;
+  color: #a1a4a9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937;
+  height: 20px;
+  padding-top: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #1F2937;
+  padding: 50px;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.imagen {
+  height: 200px;
+  width: 400px;
+  background-color: lightgray;
+}
+
+.title {
+  font-size: 48px;
+  Color:#F9FAF8;
+  font-weight: 900;
+  width: 350px;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100px;
+}
+
+.center {
+  padding: 50px;
+}
+
+.info-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px;
+  
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ic {
+  border: 2px solid rgb(61, 61, 228);
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.cita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #E5E7EB;
+  font-size: 25px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cita2 {
+  max-width: 600px;
+}
+
+.text2 {
+  display: flex;
+  justify-content:flex-end;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fondo{
+  padding: 50px 120px;
+}
+
+.down {
+  border: 2px solid white;
+}
+
+.info-3 {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: #3882F6;
+ padding: 40px 100px;
+ gap: 50px;
+ color: white;
+ border-radius: 10px;
+}
+
+.text3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F2937;
+  color: white;
+  padding: 15px;
+}
