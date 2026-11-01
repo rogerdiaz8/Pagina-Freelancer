@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
 html, body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
