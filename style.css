@@ -177,4 +177,5 @@ button {
   background: #1F2937;
   color: white;
   padding: 15px;
+  fixed: bottom;
 }
